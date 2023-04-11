@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("./marioblur1.gif")center/cover;
+    min-height: 100vh;
+    font-family: Open Sans;
+    display: grid;
+    place-items: center;
+
+}
+.center{
+    text-align: center;
+}
+.type{
+    color: #fff;
+    font-size: 5rem;
+    width: fit-content;
+    margin: 0 auto;
+    border-right: 2px solid #fff;
+    animation: blink 1s ease-in-out;
+}
+.sosial a{
+    font-size: 1.3rem;
+    margin: 3rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+@keyframes blink{
+    50%{
+        border-right-color: transparent;
+    }
+}
